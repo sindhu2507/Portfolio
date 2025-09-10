@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="MyPortfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Kola Sindhu - Portfolio</h1>
+        <div class="buttons">
+            <a href="#about"><button class="button">About</button></a>
+            <a href="#skills"><button class="button">Skills</button></a>
+            <a href="#projects"><button class="button">Projects</button></a>
+            <a href="#coding"><button class="button">Coding Profiles</button></a>
+            <a href="#contact"><button class="button">Contact</button></a>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="block">
+                <img src="linked in 3.jpg" alt="Profile Image" width="200">
+                <p>
+                    I am an aspiring student passionate about software development, with strong skills in <b>Java</b>, 
+                    <b>Data Structures & Algorithms (DSA)</b>, and <b>Web Development</b>. 
+                    I enjoy building interactive, user-friendly websites and actively seek opportunities to apply my knowledge 
+                    to real-world projects. With a punctual nature and strong work ethic, I am always eager to explore 
+                    and research new technologies. Currently, I am pursuing my <b>B.Tech in Computer Science and Engineering at K L University</b>. 
+                    My interests include <b>Artificial Intelligence, Web Development, problem-solving,</b> 
+                    and contributing to <b>open-source projects</b>.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>My Skills and Interests</h2>
+            <div class="block skills-container">
+                <div class="skills-block">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>C Basics</li>
+                        <li>Data Structures & Algorithms (DSA)</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>ReactJs</li>
+                        <li>SQL (PostgreSQL)</li>
+                        <li>MongoDB</li>
+                        <li>Git/GitHub</li>
+                    </ul>
+                </div>
+
+                <div class="right-blocks">
+                    <div class="interests-block">
+                        <h3>Interests</h3>
+                        <ul>
+                            <li>Artificial Intelligence</li>
+                            <li>Web Development</li>
+                            <li>Competitive Programming</li>
+                        </ul>
+                    </div>
+                    <div class="softskills-block">
+                        <h3>Soft Skills</h3>
+                        <ul>
+                            <li>Time Management</li>
+                            <li>Leadership</li>
+                            <li>Team Work</li>
+                            <li>Problem Solving</li>
+                            <li>Adaptability</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="block project-card">
+                <h3>SupportNet – Connecting Donors with those in need</h3>
+                <p>Developed a platform to streamline material donations, enabling donors to contribute items like clothes, books, and furniture with convenient pickup options. 
+                The system ensures efficient collection and distribution to underprivileged communities, fostering a culture of sharing and sustainability.</p>
+            </div>
+            <div class="block project-card">
+                <h3>GLIMPSE – A SOCIAL MEDIA PROJECT</h3>
+                <p>Developed a dynamic social media platform using React.js for the frontend, Express.js for the backend, and MongoDB for data storage. 
+                The application features secure user authentication with JWT, real-time messaging via Socket.IO, and interactive functionalities including post creation, liking, following and followers, profile management, and moments feature for uploading daily updates through photos.</p>
+                
+            </div>
+        </section>
+
+        <!-- Coding Profiles Section -->
+        <section id="coding">
+            <h2>My Coding Platform Profiles</h2>
+            <div class="block">
+                <ul>
+                    <li><a href="https://leetcode.com/u/sindhukola2005/" target="_blank">LeetCode</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/user/sindhukola" target="_blank">GeeksforGeeks</a></li>
+                    <li><a href="https://www.codechef.com/users/kolasindhu25" target="_blank">Codechef</a></li>
+                    <li><a href="https://codeforces.com/profile/sindhukola2005" target="_blank">Codeforces</a></li>
+                    <li><a href="https://github.com/sindhu2507" target="_blank">GitHub</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <div class="block">
+                <form>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+
+                    <b>Choose your Gender:</b>
+                    <div class="radio-group">
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </div>
+
+                    <label for="bio">Bio (upto 200 characters):</label>
+                    <textarea  id="bio" rows="5" cols="50"></textarea>
+
+                    <button class="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2025 Kola Sindhu. All rights reserved.</p>
+    </footer>
+</body>
+</html>
